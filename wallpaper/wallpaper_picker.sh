@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #!/bin/bash
-IMGS="$HOME/wallpaper"
+IMGS="$HOME/.config/wallpaper"
 
 killall awww-daemon 2>/dev/null || true
 awww-daemon &
